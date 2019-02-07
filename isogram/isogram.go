@@ -12,8 +12,8 @@ func IsIsogram(word string) bool {
 		for j := 0; j < len(mem); j++ {
 			test := string(mem[i])
 
-			if (mem[i] == mem[j] && i != j) {
-				if (test != "-" && test != " ") {
+			if mem[i] == mem[j] && i != j {
+				if test != "-" && test != " " {
 					return false
 				}
 			}
