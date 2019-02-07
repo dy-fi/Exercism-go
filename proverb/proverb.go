@@ -13,7 +13,6 @@ func Proverb(rhyme []string) []string {
 			proverb = append(proverb, "And all for the want of a " + rhyme[0] + ".")
 			return proverb
 		}
-		
 		proverb = append(proverb, "For want of a " + rhyme[i] + " the " + rhyme[i + 1] + " was lost.")
 	}
 	return []string{}

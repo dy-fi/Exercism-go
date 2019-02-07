@@ -6,10 +6,10 @@ func SquareOfSum(n int) int {
 	return formula * formula
 }
 
-// SumOfSquares returns the sum of the squares of teh first n natural numbers
+// SumOfSquares returns the sum of the squares of the first n natural numbers
 func SumOfSquares(n int) int {
 	sum := 0
-	for i := 0; i < n + 1; i++ {
+	for i := 0; i < n+1; i++ {
 		sum += (i * i)
 	}
 	return sum
