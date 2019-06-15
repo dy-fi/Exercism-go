@@ -21,3 +21,4 @@ func Total() uint64 {
 	var expected uint64 = 18446744073709551615
 	return expected
 }
+
